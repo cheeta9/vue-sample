@@ -1,15 +1,33 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <AttributeBinding />
+  <EventHandling />
+  <TwoWayBinding />
+  <ConditionalRendering />
+  <ListRendering />
+  <TodoList />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import AttributeBinding from './components/AttributeBinding.vue'
+import EventHandling from './components/EventHandling.vue'
+import TwoWayBinding from './components/TwoWayBinding.vue'
+import ConditionalRendering from './components/ConditionalRendering.vue'
+import ListRendering from './components/ListRendering.vue'
+import TodoList from './components/TodoList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    AttributeBinding,
+    EventHandling,
+    TwoWayBinding,
+    ConditionalRendering,
+    ListRendering,
+    TodoList
   }
 }
 </script>
