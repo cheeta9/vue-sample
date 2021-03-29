@@ -8,6 +8,7 @@
   <ListRendering />
   <TodoList />
   <ComputedBasics />
+  <WatchExample />
 </template>
 
 <script>
@@ -19,6 +20,7 @@ import ConditionalRendering from './components/ConditionalRendering.vue'
 import ListRendering from './components/ListRendering.vue'
 import TodoList from './components/TodoList.vue'
 import ComputedBasics from './components/ComputedBasics.vue'
+import WatchExample from './components/WatchExample.vue'
 
 export default {
   name: 'App',
@@ -30,7 +32,8 @@ export default {
     ConditionalRendering,
     ListRendering,
     TodoList,
-    ComputedBasics
+    ComputedBasics,
+    WatchExample
   }
 }
 </script>
