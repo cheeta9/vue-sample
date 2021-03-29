@@ -7,6 +7,7 @@
   <ConditionalRendering />
   <ListRendering />
   <TodoList />
+  <ComputedBasics />
 </template>
 
 <script>
@@ -17,6 +18,7 @@ import TwoWayBinding from './components/TwoWayBinding.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
 import ListRendering from './components/ListRendering.vue'
 import TodoList from './components/TodoList.vue'
+import ComputedBasics from './components/ComputedBasics.vue'
 
 export default {
   name: 'App',
@@ -27,7 +29,8 @@ export default {
     TwoWayBinding,
     ConditionalRendering,
     ListRendering,
-    TodoList
+    TodoList,
+    ComputedBasics
   }
 }
 </script>
