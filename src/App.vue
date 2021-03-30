@@ -9,6 +9,7 @@
   <TodoList />
   <ComputedBasics />
   <WatchExample />
+  <ClassStyle />
 </template>
 
 <script>
@@ -21,6 +22,7 @@ import ListRendering from './components/ListRendering.vue'
 import TodoList from './components/TodoList.vue'
 import ComputedBasics from './components/ComputedBasics.vue'
 import WatchExample from './components/WatchExample.vue'
+import ClassStyle from './components/ClassStyle.vue'
 
 export default {
   name: 'App',
@@ -33,7 +35,8 @@ export default {
     ListRendering,
     TodoList,
     ComputedBasics,
-    WatchExample
+    WatchExample,
+    ClassStyle
   }
 }
 </script>
